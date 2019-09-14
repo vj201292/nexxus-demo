@@ -11,28 +11,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>10</java.version>
+        <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
-    
-    <repositories>
-        <repository>
-            <id>nexus-demo-snapshot</id>
-            <url>http://localhost:8081/repository/nexus-demo-snapshot/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>nexus-demo-snapshot</id>
-            <url>http://localhost:8081/repository/nexus-demo-snapshot/</url>
-        </snapshotRepository>
-
-    </distributionManagement>
     
 
 
